@@ -5,7 +5,7 @@
         <h1 class="text-3xl font-bold ml-10 pt-5 text-yellow-400">
             all auctions
         </h1>
-            <div class="grid grid-cols-3 gap-10 m-10">
+            <div class="grid grid-cols-3 gap-10 p-10">
                 <div class="bg-white h-96 rounded-2xl shadow-lg flex flex-col">
                     <div class="flex mt-10 ml-5 mr-5">
                         <img src="https://iplus.com.ge/images/detailed/6/eee.001.jpeg" alt="" class="h-44 w-52">
