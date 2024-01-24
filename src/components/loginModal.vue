@@ -10,9 +10,6 @@ const registerModal = ref(false)
                 <p class="text-5xl ml-auto mr-auto mb-3" v-if="!registerModal">sign in</p>
                 <p class="text-5xl ml-auto mr-auto mb-3" v-if="registerModal">sign up</p>
                 <div class="flex flex-col gap-10">
-                    <div class="flex" v-if="registerModal">
-                        <input type="text" name="username" id="username" placeholder="username" class="border grow h-12">
-                    </div>
                     <div class="flex">
                         <input type="email" name="email" id="email" placeholder="email" class="border grow h-12">
                     </div>
@@ -27,6 +24,8 @@ const registerModal = ref(false)
 
                 </div>
                 <p class="ml-auto mr-auto underline text-[#13032e]" v-if="!registerModal">forgot password?</p>
+                <div class="ml-auto mr-auto underline text-[#13032e] h-1"></div>
+
             </div>
             <p href="" class="ml-auto mr-auto  border-t w-full text-center p-5" v-if="!registerModal">don't have an account? <span class="underline text-[#13032e] cursor-pointer" @click="registerModal = true">sign up</span></p>
             <p href="" class="ml-auto mr-auto  border-t w-full text-center p-5" v-if="registerModal">already have an account? <span class="underline text-[#13032e] cursor-pointer" @click="registerModal = false">sign in</span></p>
