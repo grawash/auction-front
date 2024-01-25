@@ -10,7 +10,7 @@
             <p class="grow basis-0 shrink font-extrabold text-xl">tickets</p>
             <p class="grow basis-0 shrink font-extrabold text-xl">progress</p>
         </div>
-        <div class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
+        <RouterLink to="/item" class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
             <p class="grow basis-0 shrink">Playstation 5</p>
             <p class="grow basis-0 shrink">30 November 21:00</p>
             <p class="grow basis-0 shrink">3 : 3 : 40</p>
@@ -21,8 +21,8 @@
                     <div class="h-full grow rounded-full"></div>
                 </div>
             </div>
-        </div>
-        <div class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
+        </RouterLink>
+        <RouterLink to="/item" class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
             <p class="grow basis-0 shrink">Playstation 5</p>
             <p class="grow basis-0 shrink">30 November 21:00</p>
             <p class="grow basis-0 shrink">3 : 3 : 40</p>
@@ -33,8 +33,8 @@
                     <div class="h-full grow rounded-full"></div>
                 </div>
             </div>
-        </div>
-        <div class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
+        </RouterLink>
+        <RouterLink to="/item" class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
             <p class="grow basis-0 shrink">Playstation 5</p>
             <p class="grow basis-0 shrink">30 November 21:00</p>
             <p class="grow basis-0 shrink">3 : 3 : 40</p>
@@ -45,7 +45,19 @@
                     <div class="h-full grow rounded-full"></div>
                 </div>
             </div>
-        </div>
+        </RouterLink>
+        <RouterLink to="/item" class="flex p-2 bg-slate-200 rounded-lg hover:bg-gray-300 hover:cursor-pointer">
+            <p class="grow basis-0 shrink">Playstation 5</p>
+            <p class="grow basis-0 shrink">30 November 21:00</p>
+            <p class="grow basis-0 shrink">3 : 3 : 40</p>
+            <p class="grow basis-0 shrink">12</p>
+            <div class="grow basis-0 shrink flex">
+                <div class="bg-gray-300 rounded-full mt-auto mb-auto flex w-full h-[60%]">
+                    <div class="bg-blue-500 h-full grow rounded-full"></div>
+                    <div class="h-full grow rounded-full"></div>
+                </div>
+            </div>
+        </RouterLink>
     </div>
 </div>
 </template>
