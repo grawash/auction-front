@@ -21,7 +21,7 @@ import arrowRight from './icons/arrowRight.vue';
                         <div class="flex text-xl mt-3">
                             <p class=" text-lg">3 days : 3 hours : 40 minutes : 22 seconds</p>
                         </div>
-                        <button class="bg-[#13032e] text-white p-2 pl-2 pr-2 rounded-md w-[95%] ml-auto mr-auto mb-2 text-3xl mt-auto text-center">refresh</button>
+                        <button class="bg-[#13032e] text-white p-2 pl-2 pr-2 rounded-md w-[95%] mb-2 text-3xl mt-auto text-center">refresh boxes</button>
                     </div>
                 </div>
             </div>
